@@ -1,0 +1,6 @@
+@LifeTimeTesting_HostAddress = http://localhost:5067
+
+GET {{LifeTimeTesting_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeTimeTesting", "LifeTimeTesting\LifeTimeTesting.csproj", "{EBCB64E3-61E4-493E-85FE-8D6CF296E73B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBCB64E3-61E4-493E-85FE-8D6CF296E73B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBCB64E3-61E4-493E-85FE-8D6CF296E73B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBCB64E3-61E4-493E-85FE-8D6CF296E73B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBCB64E3-61E4-493E-85FE-8D6CF296E73B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84EA43AB-4C05-45ED-839C-D69A2B61BD43}
+	EndGlobalSection
+EndGlobal
