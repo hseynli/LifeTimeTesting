@@ -13,7 +13,8 @@ builder.Services.AddSwaggerGen();
 //or
 builder.Services.AddScoped(provider =>
 {
-    return new LifetimeIndicatorFilter(provider.GetRequiredService<IIdGenerator>(), provider.GetRequiredService<ILogger<LifetimeIndicatorFilter>>());
+    return new LifetimeIndicatorFilter(provider.GetRequiredService<IIdGenerator>(),                 
+                                       provider.GetRequiredService<ILogger<LifetimeIndicatorFilter>>());
 });
 // behaviors
 builder.Services.AddTransient<IIdGenerator>(p => new IdGenerator());
